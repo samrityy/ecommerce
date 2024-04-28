@@ -1,20 +1,4 @@
-<!-- <template>
-    <nav class="bg-custom-orange">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-12">
-          <div class="flex items-center space-x-4">
-            <a href="#" class="text-white font-medium">Online order: (210)-986-2564</a>
-            <a href="#" class="text-white font-medium">Order tracking</a>
-          </div>
-          <div class="flex items-center space-x-4">
-            <p class="text-white font-medium">Free worldwide shipping for above united kingdom!</p>
-            <a href="#" class="text-white font-medium">Find our seach</a>
-            <a href="#" class="text-white font-medium">Email now: demo@demo.com</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </template> -->
+
 <template>
   <nav class="font-sans-serif font-normal">
     <ul class="flex justify-between items-center text-md bg-custom-orange h-11">
@@ -42,11 +26,10 @@
       <li class=" flex text-black mr-20 px-10">
         <img class="h-12 w-35" src="..\assets\logo2.png" alt="logo">
       </li>
-      <li class=" flex text-black mx-auto space-x-10 px-5 mr-28">
-        <a ref="#" > <font-awesome-icon :icon="['far', 'user']" /> Login & Register </a>
-        <a ref="#" > <font-awesome-icon :icon="['far', 'heart']" /> My wishlist</a>
-        <a ref="#" >My Cart</a>
-
+      <li class=" flex text-black mx-auto space-x-10 px-5 mr-28 text-custom-grey">
+        <a ref="#" > <font-awesome-icon :icon="['far', 'user']" class="mr-1 "/> Login & Register </a>
+        <a ref="#" > <font-awesome-icon :icon="['far', 'heart']" class="mr-1" /> My wishlist</a>
+        <a ref="#" > <font-awesome-icon :icon="['fasl', 'bag-shopping']" class="mr-1" /> My Cart</a>
       </li>
     </ul>
   </nav>
