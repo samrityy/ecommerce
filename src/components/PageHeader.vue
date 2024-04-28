@@ -16,11 +16,11 @@
     </nav>
   </template> -->
 <template>
-  <nav>
+  <nav class="font-sans-serif font-normal">
     <ul class="flex justify-between items-center text-md bg-custom-orange h-11">
       <li class="text-white mx-auto space-x-7">
-        <a ref="#" >Online order :(210)-986- 2564</a>
-        <a ref="#" >Order Tracking</a>
+        <a ref="#">Online order :(210)-986- 2564</a>
+        <a ref="#">Order Tracking</a>
       </li>
       <li class=" flex text-white mx-auto">
         <p>Free worldwide shipping for above united kingdom!</p>
@@ -31,20 +31,20 @@
       </li>
     </ul>
 
-    <ul class="flex justify-between items-center text-lg h-24">
-      <li class="text-black mx-auto space-x-10">
+    <ul class="flex justify-between items-center text-md h-24">
+      <li class="text-black font-bold mx-auto space-x-10 mx-12 px-10 ">
         <a ref="#" >HOME</a>
         <a ref="#" >COLLECTION</a>
         <a ref="#" >PRODUCT</a>
         <a ref="#" >BLOG</a>
         <a ref="#" >PAGES</a>
       </li>
-      <li class=" flex text-black mx-auto">
-        <p>logo</p>
+      <li class=" flex text-black mr-20 px-10">
+        <img class="h-12 w-35" src="..\assets\logo2.png" alt="logo">
       </li>
-      <li class=" flex text-black mx-auto space-x-7">
-        <a ref="#" >Login & Register</a>
-        <a ref="#" >My wishlist</a>
+      <li class=" flex text-black mx-auto space-x-10 px-5 mr-28">
+        <a ref="#" > <font-awesome-icon :icon="['far', 'user']" /> Login & Register </a>
+        <a ref="#" > <font-awesome-icon :icon="['far', 'heart']" /> My wishlist</a>
         <a ref="#" >My Cart</a>
 
       </li>
