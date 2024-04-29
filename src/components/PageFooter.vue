@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between item-center mx-12 my-20">
+  <div class="flex justify-between item-center  my-32">
     <div class="flex flex-col item-center w-1/3 p-2 mt-1">
       <img class="w-25 h-14 mr-auto" src="..\assets\logo2.png" alt="logo" />
       <p class="p-4 text-custom-grey ">
@@ -57,17 +57,15 @@
         </div>
       </div>
     </div>
-    <div class="w-1/3 my-4 mx-4 px-10 ">
-        <div class="text-lg mb-8 font-semibold">Follow on instagram</div>
-      <div class="flex  justify-between mb-8  ">
-        <img class="w-24 h-20 rounded-xl" src="..\assets\img_1.png" alt="logo" />
-        <img class="w-24 h-20 rounded-xl" src="..\assets\img_1.png" alt="logo" />
-        <img class="w-24 h-20 rounded-xl" src="..\assets\img_1.png" alt="logo" />
-      </div>
-      <div class="flex justify-between " >
-        <img class="w-24 h-20 rounded-xl" src="..\assets\img_1.png" alt="logo" />
-        <img class="w-24 h-20 rounded-xl" src="..\assets\img_1.png" alt="logo" />
-        <img class="w-24 h-20 rounded-xl" src="..\assets\img_1.png" alt="logo" />
+    <div class="w-1/3 my-4 mx-4 px-10  ">
+        <div class="text-lg mb-6 font-semibold">Follow on instagram</div>
+      <div class="grid grid-cols-1 gap-x-14 gap-y-12 lg:grid-cols-3 ">
+        <img class="rounded-xl" src="..\assets\img_1.png" alt="logo" />
+        <img class="rounded-xl" src="..\assets\img_1.png" alt="logo" />
+        <img class="rounded-xl" src="..\assets\img_1.png" alt="logo" />
+        <img class="rounded-xl" src="..\assets\img_1.png" alt="logo" />
+        <img class="rounded-xl" src="..\assets\img_1.png" alt="logo" />
+        <img class="rounded-xl" src="..\assets\img_1.png" alt="logo" />
       </div>
     </div>
   </div>
