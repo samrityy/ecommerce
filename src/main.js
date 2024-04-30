@@ -13,5 +13,5 @@ library.add(fas, far, fab);
 const app = createApp(App);
 app.component('font-awesome-icon', FontAwesomeIcon);
 app.use(router);
-app.mount('#app');
 app.use(VueCarousel);
+app.mount('#app');
